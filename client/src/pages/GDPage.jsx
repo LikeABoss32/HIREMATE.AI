@@ -562,7 +562,7 @@ function GDPage() {
                   className={`w-10 h-10 flex items-center justify-center rounded-full transition flex-shrink-0 ${
                     isMicOn ? 'bg-red-500 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
                   }`}>
-                  {isMicOn ? <FaMicrophoneSlash size={0} /> : <FaMicrophone size={14} />}
+                  <FaMicrophone size={14} />
                 </motion.button>
 
                 <input
