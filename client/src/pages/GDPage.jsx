@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react'
 import { motion } from "motion/react"
 import { BsRobot, BsSend, BsArrowLeft, BsMic, BsMicMute } from 'react-icons/bs'
-import { FaUsers, FaStop, FaMicrophone, FaMicrophoneSlash } from 'react-icons/fa'
+import { FaUsers, FaStop, FaMicrophone} from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
