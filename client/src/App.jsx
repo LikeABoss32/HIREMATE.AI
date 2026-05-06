@@ -14,7 +14,7 @@ import AdminLogin from './pages/AdminLogin'
 import AdminDashboard from './pages/AdminDashboard'
 import AdminReport from './pages/AdminReport'
 
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl  = "https://hiremateserver-ai.onrender.com"
 
 function App() {
 
